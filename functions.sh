@@ -3,12 +3,12 @@
 # Put your code here
 
 pow() {
-  result=$(echo "$1 ^ $2" | bc)
+  result=$(("$1"**"$2"))
   echo "$result"
 
 }
 
- 
+
 
 
 shortest() {
