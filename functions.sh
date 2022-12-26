@@ -2,7 +2,7 @@
 
 # Put your code here
 
-function pow {
+pow() {
   result=$(echo "$1 ^ $2" | bc)
   echo "$result"
 
